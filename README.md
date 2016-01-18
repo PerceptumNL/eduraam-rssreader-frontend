@@ -1,7 +1,23 @@
 # rssreader-client
 
+[![Build Status](https://travis-ci.org/PerceptumNL/eduraam-rssreader-frontend.svg?branch=master)](https://travis-ci.org/PerceptumNL/eduraam-rssreader-frontend)
+
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.
+
+## Initial setup
+
+Assuming you have the `npm` and `gem` package managers installed, execute the
+following lines.
+
+	# Install yeoman, bower, grunt and upgrade npm
+	sudo npm install -g yo bower grunt-cli npm
+	# Install latest version of compass (and sass)
+	sudo gem install compass
+	# Install tool depencencies
+	npm install
+	# Install source dependencies
+	bower install
 
 ## Build & development
 
