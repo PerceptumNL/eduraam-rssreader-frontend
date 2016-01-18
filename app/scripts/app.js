@@ -28,10 +28,10 @@ angular
 		  },
 		  vars: {
 			  development: {
-				  contentApiUrl: '//localhost:8000/conten/api'
+				  contentApiUrl: '//localhost:8000/content/api'
 			  },
 			  production: {
-				  contentApiUrl: '//rssreader-staging.herokuapp.com',
+				  contentApiUrl: '//rssreader-staging.herokuapp.com/content/api',
 			  }
 		  }
 	  });
