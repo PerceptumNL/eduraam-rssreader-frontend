@@ -24,14 +24,14 @@ angular
 	  envServiceProvider.config({
 		  domains: {
 			  development: ['localhost'],
-			  production: ['app-eduraam-rssreader-client-staging.herokuapp.com']
+			  production: ['rssreader-client-staging.herokuapp.com']
 		  },
 		  vars: {
 			  development: {
 				  contentApiUrl: '//localhost:8000/conten/api'
 			  },
 			  production: {
-				  contentApiUrl: '//app-eduraam-rssreader-staging.herokuapp.com',
+				  contentApiUrl: '//rssreader-staging.herokuapp.com',
 			  }
 		  }
 	  });
