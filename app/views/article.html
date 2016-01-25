@@ -1,0 +1,27 @@
+
+<div id="mainContent" ng-controller="ArticleCtrl">
+    <div ng-if="image">
+	    <div id="mainImage" style="background-color: #151515;
+	                                background-repeat: no-repeat; 
+                                    background-size: contain; 
+                                    background-position:center; 
+                                    background-image: url('{{ image }}')">
+	    </div>
+    </div>
+	
+    <h1>{{ title }}</h1>
+
+    <section id="mainArticle">
+		<article id="article">
+            <p ng-bind-html="body"></p>
+        </article>
+	</section>
+</div>
+
+<div id="cover">
+    <div id="closeOnBackground"></div>
+    <a id="closeCover"><i class="fa fa-angle-double-down fa-3x"></i></a>
+    <div class="container" id="row-holder">
+        <div class="row" id="cards"></div>
+    </div>
+</div>

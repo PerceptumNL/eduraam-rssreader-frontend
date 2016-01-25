@@ -50,6 +50,16 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/overview', {
+        templateUrl: 'views/overview.html',
+        controller: 'OverviewCtrl',
+        controllerAs: 'overview'
+      })
+      .when('/article/:article', {
+        templateUrl: 'views/article.html',
+        controller: 'ArticleCtrl',
+        controllerAs: 'article'
+      })
       .otherwise({
         redirectTo: '/'
       });
